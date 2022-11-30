@@ -1,0 +1,10 @@
+#exercicio 4
+algo = input("Digitar algo: ")
+print("O tipo primitivo desse valor é", type(algo))
+print("Só tem espaço?", algo.isspace())
+print("Só tem valor?", algo.isnumeric())
+print("È alfabetico?", algo.isalpha())
+print("É alfanumerico?", algo.isalnum())
+print("É maisculo?", algo.isupper())
+print("É minusculo?", algo.islower())
+print("É capitalizado?", algo.istitle())
